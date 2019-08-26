@@ -1444,3 +1444,10 @@ Filter chain halted as :authenticate_user rendered or redirected
 Completed 302 Found in 16ms (ActiveRecord: 0.0ms)
 
 
+Started GET "/friends" for 5.32.97.110 at 2019-08-26 09:21:20 +0000
+Processing by SearchesController#friends as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?      client_id=1W211QEWBVU50BUP5RILVJFTKC51KOL2LX3FDULXJYY4O2CK&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
