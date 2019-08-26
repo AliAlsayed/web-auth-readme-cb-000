@@ -1421,3 +1421,10 @@ Filter chain halted as :authenticate_user rendered or redirected
 Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
 
 
+Started GET "/friends" for 5.32.97.110 at 2019-08-26 09:20:33 +0000
+  
+SyntaxError (/home/AliAlsayed/web-auth-readme-cb-000/config/routes.rb:6: syntax error, unexpected tIDENTIFIER, expecting end
+  get '/friends' to: 'searches#friends'
+                 ^~):
+  
+config/routes.rb:6: syntax error, unexpected tIDENTIFIER, expecting end
